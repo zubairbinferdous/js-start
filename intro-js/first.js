@@ -17,11 +17,10 @@
  * 8.  oikki: 2 kilo apple and 5 kilo mango 
  * 9.  45 , 24 , 44 , 120 ,  2: max , min , avarage , sum 
  * 10. serics 
- * :: extra ::
- * 1. prime 
- * 2. permuitation 
- * 3. area 
- * :: alwayes :: 
- * jodi lage 
- * 
+ *  :: extra ::
+ *  1. prime 
+ *  2. permuitation 
+ *  3. area 
+ *  :: alwayes :: 
+ * jodi lage sikha nibo
  */
