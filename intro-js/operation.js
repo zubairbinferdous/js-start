@@ -51,13 +51,13 @@ sum = sum.toFixed(3)
 console.log(sum);
 // console.log(typeof sum)
 
-let ageMe = 16;                           // number 
-let data1 = "John";                      // string
-let data2 = {first:"Jane", last:"Duo"};  // object
-let truth = false;                      // boolean
-let sheets = ["HTML","CSS","JS"];       // array
-let arro; typeof a;                        // undefined
-let arrr0 = null;                           // null
+let ageMe = 16;                            // number 
+let data1 = "John";                       // string
+let data2 = {first:"Jane", last:"Duo"};   // object
+let truth = false;                        // boolean
+let sheets = ["HTML","CSS","JS"];         // array
+let arro; typeof a;                       // undefined
+let arrr0 = null;                          // null
 
 console.log(typeof(ageMe));
 console.log(typeof(data1));

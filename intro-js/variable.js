@@ -15,7 +15,6 @@ var price = 120;
 console.log(number , age , price);
 
 //boolean 
-
 var person = true;
 var car = false;
 
