@@ -34,3 +34,19 @@ if(price4 > price5){
 else {
     console.log('happy to you have this thing ')
 }
+var math = true;
+var get = false;
+
+if (math == true) {
+    if (get == false) {
+        if (price4 > 30) {
+            console.log('hello world zubair programmer')
+        } else {
+            console.log("thing this is ok zubair")
+        }
+    }else{
+        console.log('wrong thing happen')
+    }
+}else{
+    console.log('jubair is the best programmer')
+}
