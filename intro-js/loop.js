@@ -23,3 +23,9 @@ for(let a = 0; a < b ; a++ ){
     console.log('hello world' , a);
 }
 // console.log("hello world") 
+
+// var data = ['hello world'];
+// for(var i = 0; i < data.length ; i++){
+//     var output = data[i];
+//     console.log(output);
+// }
