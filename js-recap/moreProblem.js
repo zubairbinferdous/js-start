@@ -149,3 +149,51 @@ const  heights = [120, 140, 130, 150, 180 , 300];
 const  tallest = maxNumber( heights);
 console.log('tallest person is ' , tallest);
 
+// find the small number of array 
+
+function maxNumber(number){
+ let largest = number[0];
+ for (let i = 0; i < number.length; i++) {
+    const element = number[i];
+    if (element < largest) {
+        largest = element;
+    }
+ }
+ return largest;
+}
+const  heightss = [120, 140, 130, 150, 180 , 300, 99 , 70];
+const  tallests = maxNumber( heightss);
+console.log('small person is ' , tallests);
+
+// reveres the string 
+
+function reverseString(text){
+    let data = ''
+    for (let i = text.length-1; i >= 0; i--) {
+        const element = text[i];
+        data = data + element;
+        // data = element + data; 
+        // console.log(element , data);
+    }
+    return data;
+}
+
+const myString = 'i am good developer';
+const reverse = reverseString(myString);
+console.log(reverse);
+
+
+// 0,1,1,2,3,5,8,13,21,34,55,89....... 
+fibo[3] = fibo[2] + fibo[1]
+fibo[4] = fibo[3] + fibo[2]
+fibo[5] = fibo[4] + fibo[3]
+//fibonachi 
+
+let fibo = [ 0 , 1];
+for (let i = 2; i < 10; i++) {
+    fibo[i] = fibo[i -1 ] + fibo[i-2];
+    // console.log(fibo)
+}
+console.log(fibo);
+
+
