@@ -142,3 +142,60 @@
 
 // var result = cheop(phone);
 // console.log('this is the small phone' ,result);
+
+
+// // add price from object
+
+// const shopingCart = [
+//     {name:'shoe' , price: 1400, unit:1},
+//     {name:'pent' , price: 4300, unit:3},
+//     {name:'milk' , price: 2100, unit:5},
+//     {name:'shirt' , price: 6200, unit:2},
+// ]
+
+
+// function totalCost(product) {
+//     let myPrice = 0;
+//      for (let i = 0; i < product.length; i++) {
+//          const element = product[i];
+//          const elementTotal = element.price * element.unit;
+//          myPrice = myPrice + elementTotal;
+//      }
+//      return myPrice;
+// }
+// const product2 = totalCost(shopingCart);
+// console.log( 'my total price total' , product2);
+
+
+// //    if u purchase more ticket
+// //    -> 100 ----> 100
+// //    -> 101- 200 ->> 90tk 
+// //    -> 200+ --> 70tk 
+
+// function price(ticket) {
+//     const first100Ticket = 100;
+//     const secound100Ticket = 90;
+//     const restTicket   = 70 ;
+
+//     if ( ticket <= 100 ) {
+//         const price = ticket * first100Ticket;
+//         return price;
+//     }else if(ticket <= 200){
+//         const first100 = first100Ticket * 100;
+//         const findticketUnit = ticket - 100;
+//         const secound100 = findticketUnit * secound100Ticket;
+//         const price2 = first100 + secound100;
+//         return price2;
+//     }else{
+//         const first100 = first100Ticket * 100;
+//         const secou100 = secound100Ticket * 100;
+//         const findTicket = ticket - 200;
+//         const third100 = findTicket * restTicket;
+//         const price3 = first100 + secou100 + third100;
+//         return price3
+//     }
+// }
+// let ticket = 120;
+// let resultPrice2 = price(ticket);
+// console.log('ticke price' , resultPrice2);
+
