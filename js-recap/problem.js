@@ -105,40 +105,40 @@
 // var resultPrice = unit;
 // console.log( 'total price of this ' ,  resultPrice);
 
+// // find the big phone and small phone 
+
+// const phone = [
+//     {phone: 'samsum' , camara:33, storage: '32gb', price:90000, color:'red' },
+//     {phone: 'nokia' , camara:33, storage: '32gb',  price:22000, color:'red' },
+//     {phone: 'xaomi' , camara:33, storage: '32gb',  price:55000, color:'red' },
+//     {phone: 'hello' , camara:33, storage: '32gb',  price:150000, color:'red' }
+// ];
+
+// function chepPhone(phones){
+//     let myPhonePrice = phones[0];
+//     for(let i = 0; i < phones.length; i++) {
+//         const phone = phones[i];
+//         if( phone.price > myPhonePrice.price ){
+//             myPhonePrice = phone;
+//         }
+//     }
+
+//     return myPhonePrice;
+// }
+// const myPhone = chepPhone(phone);
+// console.log('this is the big phone' ,  myPhone);
 
 
-const phone = [
-    {phone: 'samsum' , camara:33, storage: '32gb', price:90000, color:'red' },
-    {phone: 'nokia' , camara:33, storage: '32gb',  price:22000, color:'red' },
-    {phone: 'xaomi' , camara:33, storage: '32gb',  price:55000, color:'red' },
-    {phone: 'hello' , camara:33, storage: '32gb',  price:150000, color:'red' }
-];
+// function cheop(phones) {
+//     let cheapPhone = phones[0];
+//     for(let i = 0; i < phones.length; i++ ){
+//         let element = phones[i];
+//         if (element.price < cheapPhone.price) {
+//             cheapPhone = element;
+//         }
+//     }
+//     return cheapPhone;
+// }
 
-function chepPhone(phones){
-    let myPhonePrice = phones[0];
-    for(let i = 0; i < phones.length; i++) {
-        const phone = phones[i];
-        if( phone.price > myPhonePrice.price ){
-            myPhonePrice = phone;
-        }
-    }
-
-    return myPhonePrice;
-}
-const myPhone = chepPhone(phone);
-console.log('this is the big phone' ,  myPhone);
-
-
-function cheop(phones) {
-    let cheapPhone = phones[0];
-    for(let i = 0; i < phones.length; i++ ){
-        let element = phones[i];
-        if (element.price < cheapPhone.price) {
-            cheapPhone = element;
-        }
-    }
-    return cheapPhone;
-}
-
-var result = cheop(phone);
-console.log('this is the small phone' ,result);
+// var result = cheop(phone);
+// console.log('this is the small phone' ,result);
